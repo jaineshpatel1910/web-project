@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+   
+  </head>
+
+  <body class="body">
+    <div class="auth-container">
+      <h1>Signup</h1>
+      <form>
+        <input type="text" placeholder="Username" name="username" />
+        <input type="text" placeholder="Name" />
+        <div class="error-message" id="name-error-message"></div>
+        <input type="password" placeholder="Password" />
+        <div class="error-message" id="password-error-message"></div>
+        <input type="password" placeholder="Confirm password" />
+        <div class="error-message" id="confirm-password-error-message"></div>
+      </form>
+      <div class="terms">
+        <input type="checkbox" id="checkbox" />
+        <label for="checkbox">I agree to these <a href="#">Terms & Conditions</a></label>
+      </div>
+      <button class="btn" id="login-button">Signup</button>
+      <div class="member">
+        Already a member? <a href="./login.html">Login here</a>
+      </div>
+    </div>
+    <script src="../js/register.js"></script>
+  </body>
+
+</html>
